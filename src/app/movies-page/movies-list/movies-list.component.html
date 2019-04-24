@@ -1,0 +1,11 @@
+<div class="container">
+
+  <img class="movie-image"
+       [src]="'/assets/images/movies/' + movie.imageName"
+       alt=""
+       [matTooltip]="movie.title"
+       (click)="selectMovie(movie)"
+       *ngFor="let movie of filteredMovies"
+  >
+
+</div>

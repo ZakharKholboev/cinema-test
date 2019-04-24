@@ -1,0 +1,83 @@
+{
+  "movies": [
+    {
+      "title": "Ace Ventura",
+      "description": "A goofy detective specializing in animals goes in search of the missing mascot of the Miami Dolphins.",
+      "genre": "Comedy",
+      "startTime": "10:25",
+      "duration": "1h 26min",
+      "dateOfRelease": "2.05.1994",
+      "ticketPrice": "$10",
+      "imageName": "ventura.jpg"
+    }, {
+      "title": "The Mask",
+      "description": "Bank clerk Stanley Ipkiss is transformed into a manic superhero when he wears a mysterious mask.",
+      "genre": "Comedy",
+      "startTime": "12:35",
+      "duration": "1h 41min",
+      "dateOfRelease": "6.10.1994",
+      "ticketPrice": "$12",
+      "imageName": "mask.jpg"
+    }, {
+      "title": "Liar Liar",
+      "description": "A fast-track lawyer can't lie for 24 hours due to his son's birthday wish after he disappoints his son for the last time.",
+      "genre": "Comedy",
+      "startTime": "18:15",
+      "duration": "1h 26min",
+      "dateOfRelease": "4.08.1997",
+      "ticketPrice": "$17",
+      "imageName": "liar.jpg"
+    }, {
+      "title": "John Wick",
+      "description": "An ex-hit-man comes out of retirement to track down the gangsters that killed his dog and took everything from him.",
+      "genre": "Action",
+      "startTime": "8:55",
+      "duration": "1h 41min",
+      "dateOfRelease": "5.04.2014",
+      "ticketPrice": "$20",
+      "imageName": "john_wick.jpg"
+    }, {
+      "title": "The Avengers",
+      "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+      "genre": "Action",
+      "startTime": "19:05",
+      "duration": "2h 23min",
+      "dateOfRelease": "7.05.2012",
+      "ticketPrice": "$22",
+      "imageName": "avengers.jpg"
+    }, {
+      "title": "Mission: Impossible - Fallout",
+      "description": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
+      "genre": "Action",
+      "startTime": "17:05",
+      "duration": "2h 27min",
+      "dateOfRelease": "8.06.2018",
+      "ticketPrice": "$18",
+      "imageName": "mission.jpg"
+    }, {
+      "title": "Justice League",
+      "description": "Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his new-found ally, Diana Prince, to face an even greater enemy.",
+      "genre": "Adventure",
+      "startTime": "16:35",
+      "duration": "2h",
+      "dateOfRelease": "18.03.2017",
+      "ticketPrice": "$8",
+      "imageName": "league.jpg"
+    }, {
+      "title": "Aquaman",
+      "description": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
+      "genre": "Adventure",
+      "startTime": "13:45",
+      "duration": "2h 23min",
+      "dateOfRelease": "19.12.2018",
+      "ticketPrice": "$13",
+      "imageName": "aquaman.jpg"
+    }
+  ],
+  "genres": [
+    "All",
+    "Comedy",
+    "Action",
+    "Adventure"
+  ]
+}

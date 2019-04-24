@@ -1,0 +1,30 @@
+<div class="container">
+
+  <div class="genres">
+
+    <button
+      mat-stroked-button
+      class="genre"
+      [ngClass]="{ active: genre === selectedGenre }"
+      (click)="selectGenre(genre)"
+      *ngFor="let genre of genres"
+    >
+      {{ genre }}
+    </button>
+
+  </div>
+
+  <mat-form-field appearance="outline" class="search-field">
+    <mat-label>Search Film</mat-label>
+    <input matInput [formControl]="searchField" [matAutocomplete]="auto">
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option *ngFor="let movie of this.filterMovies(movies)" [value]="movie.title">
+        <div class="option" style="display: flex">
+          <img style="width: 30px; height: 40px; margin-right: 20px" class="img-icon" [src]="'/assets/images/movies/' + movie.imageName">
+          <span>{{ movie.title }}</span>
+        </div>
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+
+</div>

@@ -1,0 +1,10 @@
+@import "app/shared/styles/global/reset.style.css";
+@import "app/shared/styles/global/variables.style.css";
+@import "app/shared/styles/global/fonts/base-fonts.style.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "app/shared/styles/global/material/icons.style.css";
+@import "app/shared/styles/global/material/shadow.style.css";
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}

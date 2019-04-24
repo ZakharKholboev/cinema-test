@@ -1,0 +1,24 @@
+<div class="container">
+
+  <div class="row" *ngFor="let ticketRow of tickets">
+
+    <div
+      class="ticket"
+      [ngClass]="{ selected: ticket === selectedTicket, bought: ticket.boughtStatus }"
+      (click)="selectTicket(ticket)"
+      *ngFor="let ticket of ticketRow">
+      {{ ticket.placement.column + 1 }}
+    </div>
+
+  </div>
+
+  <button
+    mat-stroked-button
+    color="primary"
+    class="buy-btn"
+    (click)="buyTicket(this.selectedTicket)"
+  >
+    Buy Ticket
+  </button>
+
+</div>

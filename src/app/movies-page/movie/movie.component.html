@@ -1,0 +1,44 @@
+<div class="container">
+  <h2 class="title">{{ movie?.title }}</h2>
+
+  <div class="movie-main">
+
+    <img class="movie-image"
+         [src]="'/assets/images/movies/' + movie?.imageName"
+         alt=""
+         [matTooltip]="movie?.title"
+    >
+
+    <div class="movie-data">
+
+      <div class="line genre">
+        <span class="heading">Genre:</span> {{ movie?.genre }}
+      </div>
+
+      <div class="line start-time">
+        <span class="heading">Start Time:</span> {{ movie?.startTime }}
+      </div>
+
+      <div class="line duration">
+        <span class="heading">Duration:</span> {{ movie?.duration }}
+      </div>
+
+      <div class="line start-time">
+        <span class="heading">Date of Release:</span> {{ movie?.dateOfRelease }}
+      </div>
+
+      <div class="line ticket-price">
+        <span class="heading">Ticket Price:</span> {{ movie?.ticketPrice }}
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="description">
+    {{ movie?.description }}
+  </div>
+
+  <app-buy-ticket></app-buy-ticket>
+
+</div>
